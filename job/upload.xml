@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 4.8.4
+- https://www.phpmyadmin.net
+-
+- Host: localhost
+- Generation Time: Apr 09, 2019 at 07:26 AM
+- Server version: 10.1.37-MariaDB
+- PHP Version: 7.1.26
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="job" collation="latin1_swedish_ci" charset="latin1">
+            <pma:table name="upload">
+                CREATE TABLE `upload` (
+                  `comname` varchar(32) NOT NULL,
+                  `designation` varchar(32) NOT NULL,
+                  `nov` int(11) NOT NULL,
+                  `sal` float NOT NULL,
+                  `addr` varchar(32) NOT NULL
+                ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Database: 'job'
+    -->
+    <database name="job">
+        <!-- Table upload -->
+        <table name="upload">
+            <column name="comname"> Zoho</column>
+            <column name="designation">Database</column>
+            <column name="nov">45</column>
+            <column name="sal">300000</column>
+            <column name="addr">Madurai</column>
+        </table>
+        <table name="upload">
+            <column name="comname"> Zoho</column>
+            <column name="designation">Database</column>
+            <column name="nov">45</column>
+            <column name="sal">300000</column>
+            <column name="addr">Madurai</column>
+        </table>
+    </database>
+</pma_xml_export>

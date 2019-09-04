@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 4.8.4
+- https://www.phpmyadmin.net
+-
+- Host: localhost
+- Generation Time: Apr 09, 2019 at 09:48 AM
+- Server version: 10.1.37-MariaDB
+- PHP Version: 7.1.26
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="job" collation="latin1_swedish_ci" charset="latin1">
+            <pma:table name="applicant">
+                CREATE TABLE `applicant` (
+                  `appliname` varchar(32) NOT NULL,
+                  `npass` varchar(32) NOT NULL,
+                  `cpass` varchar(32) NOT NULL,
+                  `mbl` double NOT NULL,
+                  `email` varchar(20) NOT NULL,
+                  `address` varchar(20) NOT NULL
+                ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Database: 'job'
+    -->
+    <database name="job">
+        <!-- Table applicant -->
+        <table name="applicant">
+            <column name="appliname">  sivasankaran</column>
+            <column name="npass">siva5210</column>
+            <column name="cpass"> siva5210</column>
+            <column name="mbl">8098779291</column>
+            <column name="email">sivasankaran997@gmai</column>
+            <column name="address">Madurai</column>
+        </table>
+        <table name="applicant">
+            <column name="appliname">  sathiyaseelan</column>
+            <column name="npass">helo</column>
+            <column name="cpass"> helo</column>
+            <column name="mbl">546544654654654</column>
+            <column name="email">fhfhdkfhdh</column>
+            <column name="address">djfhkdhkfhdsh</column>
+        </table>
+        <table name="applicant">
+            <column name="appliname">  sathiyaseelan</column>
+            <column name="npass">helo</column>
+            <column name="cpass"> helo</column>
+            <column name="mbl">546544654654654</column>
+            <column name="email">fhfhdkfhdh</column>
+            <column name="address">djfhkdhkfhdsh</column>
+        </table>
+    </database>
+</pma_xml_export>
